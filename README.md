@@ -10,7 +10,7 @@
   <a><img src="https://img.shields.io/badge/OS-Kali-yellow.svg" height="20"/></a>
   <a><img src="https://img.shields.io/badge/python-3.7%2B-blue.svg" height="20"/></a>
   <a><img src="https://img.shields.io/badge/version-1.0.1-lightgrey.svg" height="20"/></a>
-  <a href="https://twitter.com/intent/tweet?text=Automate%20the%20scanning%20and%20enumeration%20of%20machines%20while%20maintaining%20complete%20control%20over%20scans%20shot%20to%20targets.%20All%20the%20while%20applying%20the%20speed%20and%20convenience%20of%20tmux!%20%21&url=https://github.com/CoolHandSquid/TmuxRecon&via=CoolHandSquid&hashtags=infosec,oscp,HackTheBox,kalilinux,pentesting"><img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="tweet" height="20"></a>
+  <a href="https://twitter.com/intent/tweet?text=Automate%20the%20scanning%20and%20enumeration%20of%20machines%20while%20maintaining%20complete%20control%20over%20scans%20shot%20to%20targets.%20All%20the%20while%20applying%20the%20speed%20and%20convenience%20of%20tmux%21&url=https://github.com/CoolHandSquid/TmuxRecon&via=CoolHandSquid&hashtags=infosec,oscp,HackTheBox,kalilinux,pentesting"><img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="tweet" height="20"></a>
 </p>
 <p align="center"><img src="https://github.com/CoolHandSquid/TireFire/blob/TireFire_V3/Images/3_TireFire-Horizontal-2.png" height="500"/></p>
 
