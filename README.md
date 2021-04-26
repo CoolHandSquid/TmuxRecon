@@ -2,7 +2,7 @@
 <p align="center"><a href="https://github.com/coolhandsquid/TireFire#tirefire"><img src="https://github.com/CoolHandSquid/TireFire/blob/TireFire_V3/Images/circle-cropped.png"  height="60"/></a></p>
 <!-- <p align="center"><a href="https://github.com/coolhandsquid/TireFire#tirefire"><img src="https://github.com/CoolHandSquid/TireFire/blob/TireFire_V3/Images/circle-cropped.png"  height="60"/></a></p> -->
 <h1 align="center">TmuxRecon</h1>
-<p align="center">Automate the scanning and enumeration of machines while maintaining complete control over scans shot to target and using a tmux platform. Great for OSCP/HTB type Machines as well as penetration testing.</p>
+<p align="center">Automate the scanning and enumeration of machines while maintaining complete control over scans shot to targets. All the while applying the speed and convenience of tmux! Great for OSCP/HTB type Machines as well as penetration testing.</p>
 <p align="center">"The Metasploit of External Enumeration"</p>
 <p align="center">
   <a><img src="https://img.shields.io/badge/price-FREE-0098f7.svg" height="20"/></a>
