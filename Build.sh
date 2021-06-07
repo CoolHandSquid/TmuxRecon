@@ -17,7 +17,7 @@ rm /usr/bin/TmuxRecon 2> /dev/null
 ln -s "$PWD/TmuxRecon.py" "/usr/bin/TmuxRecon"
 
 apt update
-apt-get install gobuster seclists dconf-cli g++ pip libreoffice smtp-user-enum leafpad -y
+apt-get install gobuster seclists dconf-cli g++ pip libreoffice smtp-user-enum leafpad enum4linux smbmap -y
 wait
 python3 -m pip install pandasql
 
