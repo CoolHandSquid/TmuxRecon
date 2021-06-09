@@ -19,7 +19,7 @@ ln -s "$PWD/TmuxRecon.py" "/usr/bin/TmuxRecon"
 apt update
 apt-get install gobuster seclists dconf-cli g++ pip libreoffice smtp-user-enum leafpad enum4linux smbmap -y
 wait
-python3 -m pip install pandasql
+python3 -m pip install pandasql psutil
 
 if [ -f "/usr/share/wordlists/rockyou.txt.gz" ] || [ ! -f "/usr/share/wordlists/rockyou.txt" ]
 then
