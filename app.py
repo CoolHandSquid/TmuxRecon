@@ -36,8 +36,8 @@ def check_ping(IP):
 def start(IP):
     if click.confirm("Do you want to kick this off with an Nmap scan?", default=True):
         sendtext(Fore.GREEN + check_ping(IP) + "\n" + Fore.YELLOW + "Reference TTL Table\n" +Fore.CYAN + display_ttl() + Style.RESET_ALL)
-        subprocess.run(shlex.split("cat {}sendtext.txt".format(TRD)), stdout=subprocess.PIPE, universal_newlines=True) 
-        command = "cat {}{} && nmap -Pn {} && nmap -sC -sV -Pn {} && nmap -p- -Pn {} && nmap -Pn -p- -sU {}".format(TRD, "sendtext.txt", IP, IP, IP, IP)
+        subprocess.run(shlex.split("cat {}sendtext.txt".format(Tool_Dir)), stdout=subprocess.PIPE, universal_newlines=True) 
+        command = "cat {}{} && nmap -Pn {} && nmap -sC -sV -Pn {} && nmap -p- -Pn {} && nmap -Pn -p- -sU {}".format(Tool_Dir, "sendtext.txt", IP, IP, IP, IP)
         doit("Nmap", "Kickoff", command)
     return
 
@@ -154,7 +154,7 @@ def doit(proto, scan, command):
 def showit(proto, scan, command):
     #Called to write output in new window from DB
     tab_name    = "{} {}".format(proto, scan)
-    with open('{}showit.txt'.format(TRD), 'w') as sfile:
+    with open('{}showit.txt'.format(Tool_Dir), 'w') as sfile:
         scommand = command.split('\n')
         if command[1] == "#":
             sfile.write("\n{}\n".format(command))
@@ -166,7 +166,7 @@ def showit(proto, scan, command):
                 except:
                     pass
                 sfile.write("{}\n".format(line))
-    command = "cat {}showit.txt".format(TRD)
+    command = "cat {}showit.txt".format(Tool_Dir)
     cmd = "tmux new-window -t {} -n '{}' -c {} -P -F '#{{window_id}}' -d".format(SName, tab_name, CWD)
     winnum  = subprocess.run(shlex.split(cmd), stdout=subprocess.PIPE)
     winnum  = winnum.stdout.decode("utf-8").strip()
@@ -177,7 +177,7 @@ def showit(proto, scan, command):
 
 def sendtext(text):
     #Called to write to sendtext.txt
-    with open('{}sendtext.txt'.format(TRD), 'w') as sfile:
+    with open('{}sendtext.txt'.format(Tool_Dir), 'w') as sfile:
         sfile.write("{}\n".format(text))
 
 def hotvar(command):
@@ -220,14 +220,14 @@ if __name__ == "__main__":
     parser.add_argument("IP", help="IP address of the target", type=str)
     parser.add_argument("LastOct", help="Last octet of the IP address of the target", type=str)
     parser.add_argument("CWD", help="Directory that TmuxRecon was kicked off from", type=str)
-    parser.add_argument("TRD", help="Directory that TmuxRecon resides in", type=str)
+    parser.add_argument("Tool_Dir", help="Directory that TmuxRecon resides in", type=str)
     args    = parser.parse_args()
     
     cmd_history     = []
     IP              = args.IP
     SName           = "TR_{}".format(args.LastOct)
     CWD             = "{}/".format(args.CWD)
-    TRD             = args.TRD
+    Tool_Dir        = args.Tool_Dir
     Network         = get_network(IP)[0]
     CIDR            = get_network(IP)[1]
     Domain_Name     = "yee.wtf"
