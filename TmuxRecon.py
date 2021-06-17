@@ -31,5 +31,5 @@ else:
 
 subprocess.run(shlex.split("tmux new-session -s TR_{} -n Main -c {} -d".format(LastOct, cwd)))
 subprocess.run(shlex.split("tmux send-keys -t TR_{}:0.0 '{}app.py {} {} {} {}' Enter".format(LastOct, trd, IP, LastOct, cwd, trd,)))
-print("TR_{} Started Successfully!\nList of running Tmux sessions\n".format(LastOct))
+print("TmuxRecon session for {} named TR_{} has started successfully!\n\nList of running Tmux sessions:".format(IP, LastOct))
 subprocess.run(shlex.split("tmux ls"))
