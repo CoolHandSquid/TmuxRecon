@@ -39,8 +39,7 @@
 *	Great for HTB and OSCP like machines.
 *	TmuxRecon is a product of 19% security solutions. 
 ## Demo
-![TmuxRecon](https://drive.google.com/file/d/1RM2xMrWR9AmGUZ320LS6EpLatSQAjm0B/view?usp=sharing)
-![TmuxRecon](https://drive.google.com/uc?export=view&id=1RM2xMrWR9AmGUZ320LS6EpLatSQAjm0B)
+![TmuxRecon](https://github.com/CoolHandSquid/TmuxRecon/blob/main/Images/TmuxRecon.gif)
 ## Kickoff
 ```
 TmuxRecon 10.11.1.8
