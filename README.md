@@ -55,11 +55,16 @@ TmuxRecon 10.11.1.8
 *	Tables and commands can be added while TmuxRecon is running, and it will be populated once Main.csv is saved.
 -->
 ## Methodology
-1. Kickoff TmuxRecon (TmuxRecon 10.10.10.5). ![alt text](https://github.com/CoolHandSquid/TmuxRecon/blob/main/Images/TmuxRecon_Kickoff_1.png)
-2. C-b w (Move into the TmuxRecon Session). ![alt text](https://github.com/CoolHandSquid/TmuxRecon/blob/main/Images/TmuxRecon_Kickoff_1.5.png)
-3. When prompted, type "Y" to kickoff a Quick, Banner, All-Port, and UDP nmap scan. ![alt text](https://github.com/CoolHandSquid/TmuxRecon/blob/main/Images/TmuxRecon_Init_2.png)
-4. Depending upon the ports returned, run scans for those ports. ![alt text](https://github.com/CoolHandSquid/TmuxRecon/blob/main/Images/TmuxRecon_InAction_3.png)
-5. Change variables as you need to suit your target (Example: HTTP running on port 8500). ![alt text](https://github.com/CoolHandSquid/TmuxRecon/blob/main/Images/TmuxRecon_Variables_6.png)
+1. Kickoff TmuxRecon (TmuxRecon 10.10.10.5). 
+  ![alt text](https://github.com/CoolHandSquid/TmuxRecon/blob/main/Images/TmuxRecon_Kickoff_1.png)
+2. C-b w (Move into the TmuxRecon Session).
+  ![alt text](https://github.com/CoolHandSquid/TmuxRecon/blob/main/Images/TmuxRecon_Kickoff_1.5.png)
+3. When prompted, type "Y" to kickoff a Quick, Banner, All-Port, and UDP nmap scan.
+  ![alt text](https://github.com/CoolHandSquid/TmuxRecon/blob/main/Images/TmuxRecon_Init_2.png)
+4. Depending upon the ports returned, run scans for those ports.
+  ![alt text](https://github.com/CoolHandSquid/TmuxRecon/blob/main/Images/TmuxRecon_InAction_3.png)
+5. Change variables as you need to suit your target (Example: HTTP running on port 8500).
+  ![alt text](https://github.com/CoolHandSquid/TmuxRecon/blob/main/Images/TmuxRecon_Variables_6.png)
 ## ProTips
 - Run multiple commands from a table at once by splitting the command numbers with commas. EX: 0,1,2 (Spaces and periods work aswell)
 ## Build
