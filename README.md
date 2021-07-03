@@ -97,7 +97,7 @@ cd TmuxRecon
 wpscan --url {Web_Proto}://{IP}{1} --enumerate u,tt,t,vp --password {2} -e 
 ```
 ### {}
--	{} is for grabbing a variable from TireFire.
+-	{} is for grabbing a variable from TmuxRecon.
 - Available variables can be viewed in the variables table.  
 
 ## Supporters
