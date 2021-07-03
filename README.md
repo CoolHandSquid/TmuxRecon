@@ -55,7 +55,7 @@ TmuxRecon 10.11.1.8
 *	Tables and commands can be added while TmuxRecon is running, and it will be populated once Main.csv is saved.
 -->
 ## Methodology
-1. Kickoff TmuxRecon (TmuxRecon 10.10.10.5). 
+1. Kickoff TmuxRecon (TmuxRecon 10.10.10.5).  
   ![alt text](https://github.com/CoolHandSquid/TmuxRecon/blob/main/Images/TmuxRecon_Kickoff_1.png)
 2. C-b w (Move into the TmuxRecon Session).
   ![alt text](https://github.com/CoolHandSquid/TmuxRecon/blob/main/Images/TmuxRecon_Kickoff_1.5.png)
@@ -107,10 +107,10 @@ wpscan --url {Web_Proto}://{IP}{1} --enumerate u,tt,t,vp --password {2} -e
 ## Contact
 Please contact me at CoolHandSquid32@gmail.com for contribution, suggestions, and ideas!  
 <p align="center">
-<img src="https://github.com/CoolHandSquid/TmuxRecon/blob/TireFire_V3/Images/TireFireLogo1.png" width="200" />  
+<img src="https://github.com/CoolHandSquid/TmuxRecon/blob/main/Images/TireFireLogo1.png" width="200" />  
 </p>
 <p align="center">
-<img src="https://github.com/CoolHandSquid/TmuxRecon/blob/TireFire_V3/Images/CoolHandSquid.jpg" width="200" /> 
+<img src="https://github.com/CoolHandSquid/TmuxRecon/blob/main/Images/CoolHandSquid.jpg" width="200" /> 
 </p>
 
 <p align="center"><a href="https://github.com/coolhandsquid/TmuxRecon#TmuxRecon"><img src="https://github.com/CoolHandSquid/TmuxRecon/blob/main/Images/backToTopButton.png" alt="Back to top" height="29"/></a></p>
