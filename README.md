@@ -61,7 +61,7 @@ TmuxRecon 10.11.1.8
   ![alt text](https://github.com/CoolHandSquid/TmuxRecon/blob/main/Images/TmuxRecon_Kickoff_1.5.png)
 3. When prompted, type "Y" to kickoff a Quick, Banner, All-Port, and UDP nmap scan.
   ![alt text](https://github.com/CoolHandSquid/TmuxRecon/blob/main/Images/TmuxRecon_Init_2.png)
-4. Depending upon the ports returned, run scans for those ports.
+4. Notice that new windows were opened kicking off those scans. Depending upon the ports returned, run scans for those ports.
   ![alt text](https://github.com/CoolHandSquid/TmuxRecon/blob/main/Images/TmuxRecon_InAction_3.png)
 5. Change variables as you need to suit your target (Example: HTTP running on port 8500).
   ![alt text](https://github.com/CoolHandSquid/TmuxRecon/blob/main/Images/TmuxRecon_Variables_6.png)
