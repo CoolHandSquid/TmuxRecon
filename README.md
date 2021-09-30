@@ -2,6 +2,7 @@
 <p align="center"><a href="https://github.com/coolhandsquid/TireFire#tirefire"><img src="https://github.com/CoolHandSquid/TireFire/blob/TireFire_V3/Images/circle-cropped.png"  height="60"/></a></p>
 <!-- <p align="center"><a href="https://github.com/coolhandsquid/TireFire#tirefire"><img src="https://github.com/CoolHandSquid/TireFire/blob/TireFire_V3/Images/circle-cropped.png"  height="60"/></a></p> -->
 <h1 align="center">TmuxRecon</h1>
+<p align="center">TmuxRecon is cool. <a href="https://github.com/CoolHandSquid/HackTricks-Automatic-Commands">HackTricks-Automatic-Commands</a> is better. Check it out!</p>
 <p align="center">Automate the scanning and enumeration of machines while maintaining complete control over scans shot to targets. All the while applying the speed and convenience of tmux! Great for OSCP/HTB type Machines as well as penetration testing.</p>
 <p align="center">"The Metasploit of External Enumeration"</p>
 <p align="center">
