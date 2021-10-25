@@ -1,5 +1,5 @@
 <h1 align="center">!!THIS PROJECT HAS MOVED!!</H1>
-<p align="center">HackTricks Automatic Commands has been integrated into <a href="https://github.com/CoolHandSquid/TireFire">TireFire</a>.</p>
+<p align="center">TmuxRecon has been integrated into <a href="https://github.com/CoolHandSquid/TireFire">TireFire</a>.</p>
 <p align="center">This repository has been migrated and will no longer be updated or supported. Use TireFire in the future. Thank you for your support!</p>
 <!-- ![alt text](https://github.com/CoolHandSquid/TireFire/blob/TireFire_V3/Images/TireFireLogo1.png) -->
 <p align="center"><a href="https://github.com/coolhandsquid/TireFire#tirefire"><img src="https://github.com/CoolHandSquid/TireFire/blob/TireFire_V3/Images/circle-cropped.png"  height="60"/></a></p>
